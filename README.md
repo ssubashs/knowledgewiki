@@ -1,2 +1,1 @@
 # knowledgewiki
-Learning notes. 
