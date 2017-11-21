@@ -1,6 +1,6 @@
 ### Variance
 
- The problem here is that Empty is a Maybe[Nothing] and a Maybe[Nothing] is not a subtype of Maybe[Int]
+ The problem here is that Empty is a Maybe[Nothing] and a Maybe[Nothing] is not a subtype of Maybe[Int] (by default invariance) even though Int is a subtype of Nothing.
 
 
     val mayBe:Maybe[Int] = Empty;

@@ -1,0 +1,4 @@
+### hadoop dfs commands
+
+```hadoop fs -ls /jobs/prod/ai/```
+```
